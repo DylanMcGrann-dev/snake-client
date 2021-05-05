@@ -5,6 +5,6 @@ const { setupInput } = require("./input");
 // "Move: left" - move left one square (unless facing right)
 // "Move: right" - move left one square (unless facing left)
 console.log("Connecting ...");
-connect();
 
-setupInput();
+
+setupInput(connect());
